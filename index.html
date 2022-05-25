@@ -15,6 +15,12 @@
     #main {margin-left: 120px}
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    img{
+      border-radius: 20%;
+    }
+    #zeroRad{
+      border-radius: 0%;
+    }
     </style>
     
     <title>
@@ -62,8 +68,11 @@ Praveen & Lavanya</title>
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h2 class="w3-jumbo"><span class="w3-hide-small"></span> Praveen <span style="color:red">&hearts; </span> Lavanya's.</h2>
     <h4>Pictographical Musuem</h4>
-    <img src="title.png" alt="Title" class="w3-image" width="992" height="1108">
+    <img id="zeroRad" src="title.png" alt="Title" class="w3-image" width="992" height="1108">
   </header>
+  <div>
+    <div id="fixed"></div>
+  </div>
 <div class="w3-padding-64 w3-content" id="about">
     <h2 class="w3-text-light-grey">HALDI</h2>
     <hr style="width:200px" class="w3-opacity">
